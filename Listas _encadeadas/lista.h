@@ -36,8 +36,12 @@ Função busca: busca um elemento na lista
 */
 Lista *buscar_elemento(Lista *lista, int valor);
 
+/* Função que retira um elemento da lista 
+*/
 Lista *Retirar_elemento(Lista *lista, int valor);
 
+/* Função que libera memória alocada dinâmicamente para a struct Pilha
+ */
 void liberar_lista(Lista *linha);
 
 int maiores(Lista *lista, int n);
